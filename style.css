@@ -98,7 +98,7 @@ header div{
 
 .contact{
 	display: flex;
-	flex: 1 auto;
+	flex: 1 0 auto;
 	flex-direction: column;
 	height: 100%;
 }
@@ -112,6 +112,19 @@ header div{
 .contact article {
 	font-size: 1em;
 	padding: 20px;
+}
+img {
+	display: flex;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10em;
+}
+.contact section {
+	display: flex;
+	font-size: 2em;
+	flex-direction: column;
+	padding-left: 20px;
 }
 footer {
 	display: flex;
